@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    max-width: 1440px;
+    max-height: 1080px;
+    background-color: #3155b2;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: azure;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.nav_a{
+    text-decoration: none;
+    color: azure;
+}
+
+.navigation:hover{
+    background-color: #59aaee;
+}
+
+.nav_a:hover {
+    background-color: #5c78ef;
+}
