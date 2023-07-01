@@ -1,4 +1,15 @@
 {% extends 'base.html' %}
-{% block title %} {% endblock %}
+{% block title %} <title>HOME PAGE </title>{% endblock %}
 
-{% block content %} {% endblock %}
+{% block content %}
+
+    <h1 class="text_top_h1">Нажми на кнопку для перехода на другую страницу!</h1>
+<div > <form action="{{ url_for('second') }}" method="get" target="_blank">
+      <button class="btn" type="submit">Click me</button>
+    </form>
+
+
+
+</button>
+</div>
+{% endblock %}
